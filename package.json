@@ -37,7 +37,9 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorCommunityFirebaseAnalytics.podspec"
+    "CapacitorCommunityFirebaseAnalytics.podspec",
+    "tsconfig.json",
+    "src/"
   ],
   "keywords": [
     "capacitor",
