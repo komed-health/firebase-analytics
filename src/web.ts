@@ -283,7 +283,7 @@ export class FirebaseAnalyticsWeb extends WebPlugin
     const firebaseAppScript = this.scripts[0];
     const firebaseAnalyticsScript = this.scripts[1];
 
-    return new Promise(async (resolve, _reject) => {
+    return new Promise<void>(async (resolve, _reject) => {
       const scripts = this.scripts.map((script) => script.key);
       if (
         document.getElementById(scripts[0]) &&
